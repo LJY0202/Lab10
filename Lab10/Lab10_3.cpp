@@ -3,6 +3,7 @@ using namespace std;
 
 class BaseClass {
 public:
+	// 다이나믹 캐스팅을 위해 virtual 함수를 하였다.
 	BaseClass() {};
 	virtual void a() {};
 };
