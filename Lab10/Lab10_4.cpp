@@ -31,6 +31,6 @@ int main() {
 	
 	assert(typeid(cpo) == typeid(Staff*));
 
-	delete c;
+	delete cpo;
 	return 0;
 }
